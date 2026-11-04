@@ -1,0 +1,4 @@
+interface:
+  display_name: "QA 이슈 수정"
+  short_description: "GitHub QA 이슈의 원인을 찾아 요청 범위만 수정합니다"
+  default_prompt: "$qa-fix를 사용해 이 GitHub QA 이슈를 확인하고 수정해줘."

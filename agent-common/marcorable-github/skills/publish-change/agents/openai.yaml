@@ -1,0 +1,4 @@
+interface:
+  display_name: "변경 게시"
+  short_description: "현재 변경을 커밋하고 단일 Pull Request로 게시합니다"
+  default_prompt: "$publish-change를 사용해 현재 변경을 커밋하고 Pull Request로 게시해줘."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pull Request 생성"
+  short_description: "단일 PR 적합성을 판단하고 저장소 규칙에 맞게 게시합니다"
+  default_prompt: "$pr을 사용해 현재 브랜치의 Pull Request를 만들어줘."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "PR 범위 판단"
+  short_description: "논리적 책임과 리뷰 도구 제한으로 PR 분할 경계 판단"
+  default_prompt: "$assess-pr-scope를 사용해 이 브랜치가 하나의 PR에 적절한지 판단해줘."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "머지 브랜치 정리"
+  short_description: "병합된 PR의 안전한 리모트 브랜치만 삭제합니다"
+  default_prompt: "$delete-merged-remote-branch를 사용해 병합된 PR의 리모트 브랜치를 안전하게 정리해줘."

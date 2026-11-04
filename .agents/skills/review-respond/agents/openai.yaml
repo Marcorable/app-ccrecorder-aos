@@ -1,0 +1,4 @@
+interface:
+  display_name: "PR 리뷰 반영"
+  short_description: "미해결 PR 리뷰를 확인하고 요청 범위에 맞게 반영합니다"
+  default_prompt: "$review-respond를 사용해 이 Pull Request의 미해결 리뷰를 반영해줘."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "커밋"
+  short_description: "변경 범위를 검토하고 저장소 규칙에 맞게 커밋합니다"
+  default_prompt: "$commit을 사용해 현재 변경을 검토하고 커밋해줘."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "PR 머지 대기"
+  short_description: "리뷰와 사용자 머지를 기다리고 PR 상태를 확인합니다"
+  default_prompt: "$await-pr-merge를 사용해 이 PR이 머지될 때까지 상태를 확인해줘."
