@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CCRecorder</string>
+    <string name="recording_notification_channel_name">녹음</string>
+    <string name="recording_notification_channel_description">진행 중인 대화 녹음을 표시합니다.</string>
+    <string name="recording_notification_title">대화를 녹음하는 중</string>
+    <string name="recording_notification_preparing">녹음을 준비하고 있습니다.</string>
+    <string name="recording_notification_ready">녹음 준비가 완료되었습니다.</string>
+    <string name="recording_notification_active">앱을 닫아도 녹음이 계속됩니다.</string>
+    <string name="recording_notification_paused">녹음이 일시정지되었습니다.</string>
+    <string name="recording_notification_finishing">녹음을 마무리하고 있습니다.</string>
 </resources>

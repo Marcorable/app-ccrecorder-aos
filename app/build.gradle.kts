@@ -45,6 +45,7 @@ kapt {
 
 dependencies {
     implementation(project(":core:designsystem"))
+    implementation(project(":core:media"))
     implementation(project(":feature:conversation"))
     implementation(project(":feature:recorder"))
     implementation(project(":feature:recordings"))
