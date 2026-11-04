@@ -44,6 +44,7 @@ kapt {
 }
 
 dependencies {
+    implementation(project(":core:data"))
     implementation(project(":core:designsystem"))
     implementation(project(":feature:conversation"))
     implementation(project(":feature:recorder"))
@@ -59,6 +60,7 @@ dependencies {
     implementation(libs.compose.ui)
     implementation(libs.compose.ui.tooling.preview)
     implementation(libs.hilt.android)
+    implementation(libs.kotlinx.coroutines.core)
     implementation(libs.kotlinx.serialization.json)
     kapt(libs.hilt.compiler)
 
