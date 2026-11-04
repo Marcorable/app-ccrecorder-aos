@@ -1,8 +1,23 @@
 # CCRecorder Android
 
-Kotlin, Jetpack Compose, Material 3, Hilt, Navigation Compose로 구성한 CCRecorder Android 멀티모듈 기반이다. `targetSdk`와 `compileSdk`는 36, `minSdk`는 26이며 Kotlin DSL과 Gradle Version Catalog를 사용한다.
+CCRecorder Android는 다음 기술로 구성한 멀티모듈 프로젝트다.
 
-API 36 지원 범위를 유지하기 위해 AGP 8.13.2, Gradle 8.13, Kotlin 2.3.21을 사용한다. Compose BOM 2026.02.00과 Navigation Compose 2.9.7을 함께 고정했고, Hilt는 AGP 8을 지원하면서 Kotlin 2.3 메타데이터를 처리하는 마지막 안정 버전인 2.58을 사용한다.
+- 언어: Kotlin
+- UI: Jetpack Compose, Material 3
+- 의존성 주입: Hilt
+- 화면 탐색: Navigation Compose
+- 빌드 구성: Kotlin DSL, Gradle Version Catalog
+- SDK: `compileSdk 36`, `targetSdk 36`, `minSdk 26`
+
+API 36 지원 범위를 유지하기 위해 다음 버전을 고정한다.
+
+- Android Gradle Plugin: 8.13.2
+- Gradle: 8.13
+- Kotlin: 2.3.21
+- Compose BOM: 2026.02.00
+- Navigation Compose: 2.9.7
+- Hilt: 2.58
+  - AGP 8을 지원하면서 Kotlin 2.3 메타데이터를 처리하는 마지막 안정 버전이다.
 
 ## 빌드
 
